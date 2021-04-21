@@ -145,7 +145,7 @@ int main()
     vector<vector<int>> C(rows_num);
     for (auto i = 0; i < rows_num; i++)
     {
-        C[i].resize(i + 1);
+        C[i].resize(N);
     }
 
     vector<vector<Vertex *>> pred(rows_num);
